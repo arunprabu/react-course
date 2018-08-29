@@ -1,0 +1,19 @@
+Better Project Structure
+======================
+src/
+  assets/
+    images/
+    icons/
+    fonts/
+  components/
+    Users/
+      User/
+        User.js
+      Users.js 
+    About/
+      About.js
+    Auth/
+      Login/
+        Login.js
+      Signup/
+        Signup.js

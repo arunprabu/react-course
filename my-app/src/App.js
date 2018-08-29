@@ -68,6 +68,9 @@ class App extends Component {
         <Profile />
 
         <MyFragment />
+
+
+        
         <Footer />
       </div>
     );

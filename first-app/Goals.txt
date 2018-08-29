@@ -26,17 +26,17 @@ React - 4 hours
 
 Day 2:
 ========
-React - 4 Hours 
+React - 8 Hours 
 13. Two Way Binding
   14. Adding Styles in css files and importing them in js files
         hint:  import './App.css'; 
       Inline Styles
-        hint: inside render method, before return create 
+        hint: inside render method, before return, create 
             var btnStyles = { 
               backgroundColor: 'blue', 
               color: '#ccc'
             }
-        <button style={btnStyles}
+        <button style={btnStyles} 
   15. Conditionals and Lists
       Conditionals work with ternary expression
         example: this.state.foodCount > 0 ? 
@@ -65,32 +65,28 @@ React - 4 Hours
   17. Styling Componenents
       Using Sass
         https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
-  18. Fragments
+  18. Fragments (16.2 feature)
   19. Better Project Structure
-        Refer Max Tutorials
-
-  19. Splitting an App into multiple components - thinking in React
-  20. Component Lifecycle
+  20. Splitting an App into multiple components - thinking in React
+  21. Component Lifecycle
       Component Creation Lifecycle in Action ( refer pdf file:///E:/TRAINING%20MATERIALS/react-course/first-app/lifecycle-creation-learning-card.pdf )
-  21. Fragments (react 16.2 feature)
-  22. Higher Order Components
-  23. Using References
-      and Ref API
-  24. Context API
-  25. Planning the App
-  26. Configure Material UI
+  22. Planning the App
+  23. How to Include Bootstrap in React App 
+        npm i bootstrap --save 
+        then,
+        in index.js 
+        import 'bootstrap/dist/css/bootstrap.css'
+        That's all!
+  24. Configure Material UI
       
-
-
-
-      
-  
-Redux - 4 Hours 
 
 Day 3:
 ========
-Redux - 4 hours 
-React + Flow - 3 Hours 
+22. React Forms 
+23. Using References
+    and Ref API
+24. React Router
+25. Redux - 4 hours 
 
 Day 4: 
 =========
