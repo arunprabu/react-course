@@ -65,7 +65,8 @@ Day 2:
   19. Better Project Structure
   20. Splitting an App into multiple components - thinking in React
   21. Component Lifecycle
-      Component Creation Lifecycle in Action ( refer pdf file:///E:/TRAINING%20MATERIALS/react-course/first-app/lifecycle-creation-learning-card.pdf )
+      Component Creation Lifecycle in Action
+      https://medium.com/@baphemot/understanding-reactjs-component-life-cycle-823a640b3e8d
   22. Planning the App
   23. How to Include Bootstrap in React App 
         npm i bootstrap --save 
