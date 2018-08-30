@@ -1,0 +1,110 @@
+Day1:
+=========
+NodeJS 
+ES6
+react - set up dev environment
+1. Create react project.
+2. Project folder walk through
+3. Understanding components
+4. React (helps build the code ) vs ReactDOM (helps render in browser)
+4. Understanding JSX
+5. components React
+6. Props
+7. Children Property
+8. Understanding State
+
+Day 2:
+========
+9. Events
+    List of Events in React Docs: https://reactjs.org/docs/events.html#supported-events
+    Passing Arguments to Event Handlers https://reactjs.org/docs/handling-events.html (last section)
+10. Mutating State through setState with event handler
+11. React Documentation walk through
+12. Componenents Deep dive
+    a) Functional components (Stateless)
+    b) Class Components (stateful)
+12.1. Communication from parent to child and child to parent
+    Add to Watchlist example
+13. Two Way Binding
+14. Adding Styles in css files and importing them in js files
+    hint:  import './App.css'; 
+    Inline Styles
+    hint: inside render method, before return, create 
+        var btnStyles = { 
+            backgroundColor: 'blue', 
+            color: '#ccc'
+        }
+    <button style={btnStyles} 
+15. Conditionals and Lists
+    Conditionals work with ternary expression
+    example: this.state.foodCount > 0 ? 
+                <div>found</div> 
+                : 
+                <div>not found</div>
+    Lists: looping with map
+    Key is important when rendering lists with maps
+
+16. How to update state immutably (2 ways)
+    a) get a copy of the state propert (example an array)
+        const pgms = this.state.programs.slice();    // slice() will give one copy of state property
+        //the we can update or delete the value in pgms
+        this.setState({programs: pgms}) // then at last use setState to update the original state object
+    b) use es6 
+        const pgms = [...this.state.programs];
+        //the we can update or delete the value in pgms
+        this.setState({programs: pgms}) // then at last use setState to update the original state object
+17. Debugging
+    USing Browser Console.
+    Install React Developer Tools
+18. Fragments (16.2 feature)
+19. Better Project Structure
+20. Splitting an App into multiple components - thinking in React
+21. Component Lifecycle
+    Component Creation Lifecycle in Action
+    https://medium.com/@baphemot/understanding-reactjs-component-life-cycle-823a640b3e8d
+22. Planning the App
+23. How to Include Bootstrap in React App 
+    npm i bootstrap --save 
+    then,
+    in index.js 
+    import 'bootstrap/dist/css/bootstrap.css'
+    That's all!
+24. Material UI
+      
+
+Day 3:
+========
+1. Material UI - my-app showcase
+2. Styling Componenents
+    Using Sass
+    https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
+    Complete the Project 
+    ====================
+
+3. Create New App
+4. Create the Layout for Crud App
+5. Implement Router
+    https://flaviocopes.com/react-router/
+    https://blog.pusher.com/getting-started-with-react-router-v4/
+6. React Forms 
+7. Using References
+    and Ref API
+8. Redux 
+    Redux is a state management library that gives you access to the state anywhere in your components without the need to pass props.
+    'npm install --save redux react-redux'
+    'redux package'  is a separate framework, developed by open source community
+    'react-redux' is the official library that connects the two.
+
+    Refer HowReduxWorks.png
+    Data Flows unidirectionally.
+    Not Both ways data flow.
+
+Day 4: 
+=========
+Material UI - 4 Hours 
+Sass - 4 Hours 
+
+Day 5:
+======
+Completing Redux app 
+Jest
