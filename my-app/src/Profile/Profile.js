@@ -5,6 +5,7 @@ class Profile extends Component{
     userName: "Arun",
     accountCreated: '4/May/2018'
   }
+
   //arrow function
   changeProfileOnInput = (event) =>{
     this.setState({
@@ -17,9 +18,9 @@ class Profile extends Component{
 
     return(
       <div>
-        <hr />
-        <h2>Update Profile</h2>  
-        <input type='text' onChange={this.changeProfileOnInput} value={this.state.userName}/>
+        <h2>Update Profile</h2>
+        <input type='text' 
+          onChange={this.changeProfileOnInput} value={this.state.userName}/>
         <p>Username: {this.state.userName} </p>
         <span>Account Created On: {this.state.accountCreated}</span>
       </div> 

@@ -1,24 +1,41 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
+import { Card, CardContent, Typography, CardActions } from '@material-ui/core';
 
 // this example talks about communication from child to parent with event
-// line no 16 button changes from 
 class Program extends Component{
   componentWillMount(){
     console.log("Component Will Mount");
   }
 
   render(){
-    console.log(this.props);
-
     return(
       <div>
-        <h2>#{this.props.id}: Program name: {this.props.name}</h2>  
-        <p>Host: {this.props.host} </p>
-        <button 
-        className='btn btn-primary' 
-        onClick={this.props.updateWatchList}>
-        { this.props.isInWatchList? 'Added': 'Add to Watchlist'}
-        </button>
+        <Card className='card-3'>
+          <CardContent>
+            <Typography color="textSecondary">
+              Programs of the Day
+            </Typography>
+            <Typography variant="headline" component="h2">
+              {this.props.name}
+            </Typography>
+            <Typography color="textSecondary">
+            #{this.props.id}
+            </Typography>
+            <Typography component="p">
+              {this.props.host} 
+            </Typography>
+          </CardContent>
+          <CardActions align="center">
+            <Button 
+              variant="contained" 
+              color="primary" 
+              className="Align-center"
+              onClick={this.props.onUpdateWatchList}>
+              { this.props.isInWatchList? 'Added': 'Add to Watchlist'}
+            </Button>
+          </CardActions>
+        </Card>
       </div> 
     )
   }

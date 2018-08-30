@@ -7,3 +7,8 @@
 .Align-center{
   text-align: center;
 }
+.card-3{
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 30px;
+}

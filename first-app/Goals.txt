@@ -14,7 +14,10 @@ React - 4 hours
   6. Props
   7. Children Property
   8. Understanding State
-  9. Events
+
+Day 2:
+========
+9. Events
       List of Events in React Docs: https://reactjs.org/docs/events.html#supported-events
       Passing Arguments to Event Handlers https://reactjs.org/docs/handling-events.html (last section)
   10. Mutating State through setState with event handler
@@ -23,11 +26,8 @@ React - 4 hours
       a) Functional components (Stateless)
       b) Class Components (stateful)
   12.1. Communication from parent to child and child to parent
-
-Day 2:
-========
-React - 8 Hours 
-13. Two Way Binding
+        Add to Watchlist example
+  13. Two Way Binding
   14. Adding Styles in css files and importing them in js files
         hint:  import './App.css'; 
       Inline Styles
@@ -61,10 +61,6 @@ React - 8 Hours
         USing Browser Console.
         Install React Developer Tools
         //TODO: Learn More about it in Max Tutorials
-
-  17. Styling Componenents
-      Using Sass
-        https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
   18. Fragments (16.2 feature)
   19. Better Project Structure
   20. Splitting an App into multiple components - thinking in React
@@ -78,15 +74,26 @@ React - 8 Hours
         import 'bootstrap/dist/css/bootstrap.css'
         That's all!
   24. Configure Material UI
+  25. Styling Componenents
+      Using Sass
+        https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
       
 
 Day 3:
 ========
-22. React Forms 
-23. Using References
+1. Create New App
+2. Create the Layout for Crud App
+3. Implement Router
+    https://flaviocopes.com/react-router/
+    https://blog.pusher.com/getting-started-with-react-router-v4/
+4. React Forms 
+5. Using References
     and Ref API
-24. React Router
-25. Redux - 4 hours 
+6. Redux - 4 hours 
+    Redux is a state management library that gives you access to the state anywhere in your components without the need to pass props.
+    'npm install --save redux react-redux'
+    'redux package'  is a separate framework, developed by open source community
+    'react-redux' is the official library that connects the two.
 
 Day 4: 
 =========

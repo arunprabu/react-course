@@ -6,7 +6,8 @@ class MyFragment extends Component {
   constructor(){
     super();
     this.state = {
-      appName: "My App"
+      appName: "My App", 
+      browserName: "Don't know"
     }
     console.log("Inside Constructor");
   }
@@ -21,10 +22,7 @@ class MyFragment extends Component {
     })
   }
 
-  componentDidMount(){
-    //ideal place to fire ajax calls
-    console.log("Inside Component Did Mount");
-  }
+  
   //there are so many other lifecycle hooks available
 
   render() {
@@ -39,5 +37,11 @@ class MyFragment extends Component {
       </Fragment>
     );
   }
+  
+  componentDidMount(){
+    //ideal place to fire ajax calls
+    console.log("Inside Component Did Mount");
+  }
+
 }
 export default MyFragment;
