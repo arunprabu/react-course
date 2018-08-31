@@ -5,7 +5,7 @@ class Navigation extends Component {
   render() { 
     return (  
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <NavLink to="/" className="navbar-brand">Contact Manager App</NavLink>
+        <NavLink to="/" className="navbar-brand">Blog App</NavLink>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

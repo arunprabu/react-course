@@ -1,6 +1,6 @@
 Flow Tutorial
 ================
-1) npm i --save-dev flow-bin
+1) yarn add flow-bin or npm i --save-dev flow-bin
 2) package.json 
     script: {
       ..,

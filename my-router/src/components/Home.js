@@ -17,7 +17,6 @@ class Home extends Component {
             <div className="col-8"><AllPost /></div>
           </div>
         </div>
-        
       </div>
     );
   }

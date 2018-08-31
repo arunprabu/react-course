@@ -1,19 +1,4 @@
 Better Project Structure
 ======================
-src/
-  assets/
-    images/
-    icons/
-    fonts/
-  components/
-    Users/
-      User/
-        User.js
-      Users.js 
-    About/
-      About.js
-    Auth/
-      Login/
-        Login.js
-      Signup/
-        Signup.js
+
+https://medium.com/@yiquanzhou/how-to-structure-real-world-redux-react-application-d61e66a7dd36

@@ -88,7 +88,8 @@ Day 3:
     https://flaviocopes.com/react-router/
     https://blog.pusher.com/getting-started-with-react-router-v4/
     http://manojsinghnegi.com/blog/2017/09/03/Implementing-redux-and-react-router-v4-in-your-react-app/
-6. React Forms 
+6. Redux Forms 
+    https://alligator.io/redux/redux-form/
 7. Using References
     and Ref API
 8. Redux 
@@ -121,8 +122,16 @@ Day 4:
     https://medium.freecodecamp.org/integrating-create-react-app-redux-react-router-redux-observable-bootstrap-altogether-216db97e89a3
     https://www.youtube.com/watch?v=f9S5uYqVGaU
     https://www.youtube.com/watch?v=sF5-V-Szo0c
+    https://redux-observable.js.org/docs/basics/Epics.html
 
 Day 5:
 ======
 Completing Redux app 
 Jest
+
+Better Project Structure
+======================
+
+https://medium.com/@yiquanzhou/how-to-structure-real-world-redux-react-application-d61e66a7dd36
+
+https://hackernoon.com/redux-step-by-step-a-simple-and-robust-workflow-for-real-life-apps-1fdf7df46092

@@ -6,6 +6,10 @@ const postReducer = (state = [], action) => {
   //Step8: 
   switch(action.type) {
     case 'ADD_POST':
+      //ajax rest api 
+      // promise, axios, 
+      // redux-thunk (middleware)
+      // redux-observable
       return state.concat([action.data]);
     default:
       return state;

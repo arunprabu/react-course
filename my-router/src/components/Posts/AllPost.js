@@ -1,3 +1,4 @@
+//this file is a container. You can later move into 'containers' folder
 import React, { Component } from 'react';
 //Step 18: 
 import { connect } from 'react-redux';
