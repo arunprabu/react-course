@@ -74,11 +74,12 @@ Day 2:
 
 Day 3:
 ========
-1. Material UI - my-app showcase
-2. Styling Componenents
-    Using Sass
+1. Material UI - my-app showcase (1 Hour)
+2. Styling Componenents ( 2 Hours )
+    Using Sass ( Teach Sass )
     https://medium.com/front-end-hacking/how-to-add-sass-or-scss-to-create-react-app-c303dae4b5bc
     Complete the Project 
+    Deploy the App
     ====================
 
 3. Create New App
@@ -86,6 +87,7 @@ Day 3:
 5. Implement Router
     https://flaviocopes.com/react-router/
     https://blog.pusher.com/getting-started-with-react-router-v4/
+    http://manojsinghnegi.com/blog/2017/09/03/Implementing-redux-and-react-router-v4-in-your-react-app/
 6. React Forms 
 7. Using References
     and Ref API
@@ -98,11 +100,27 @@ Day 3:
     Refer HowReduxWorks.png
     Data Flows unidirectionally.
     Not Both ways data flow.
+    
+    Some Awesome Tutorials
+    https://codeburst.io/redux-a-crud-example-abb834d763c9
+    https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f
+    
+
+Some best Resources: https://www.fullstackreact.com/30-days-of-react/
 
 Day 4: 
 =========
-Material UI - 4 Hours 
-Sass - 4 Hours 
+1. Complete the previous App
+2. Connect to API 
+    Refer: https://www.davidmeents.com/manage-state-connect-to-api-redux-axios/
+    https://www.youtube.com/watch?v=h892pHdLQtMs
+3. Complete the App 
+4. RxJS 
+    Intro 
+5. Redux Observable 
+    https://medium.freecodecamp.org/integrating-create-react-app-redux-react-router-redux-observable-bootstrap-altogether-216db97e89a3
+    https://www.youtube.com/watch?v=f9S5uYqVGaU
+    https://www.youtube.com/watch?v=sF5-V-Szo0c
 
 Day 5:
 ======

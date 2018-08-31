@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
-import { Card, CardContent, Typography, CardActions } from '@material-ui/core';
+import { Card, CardContent, Typography, CardActions, Button } from '@material-ui/core';
 
 // this example talks about communication from child to parent with event
 class Program extends Component{

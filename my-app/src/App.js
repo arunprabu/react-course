@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -13,7 +12,6 @@ import Subscribe from './Subscribe/Subscribe';
 import Profile from './Profile/Profile';
 import MyFragment from './MyFragment/MyFragment';
 
-
 function TabContainer(props) {
   return (
     <Typography component="div" style={{ padding: 8 * 3 }}>
@@ -21,10 +19,6 @@ function TabContainer(props) {
     </Typography>
   );
 }
-
-TabContainer.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 class App extends Component {
   state = {
@@ -37,7 +31,8 @@ class App extends Component {
     tv: "NatGeo",
     value: 0
   };
-
+  
+  //material tab implementation
   handleTabChange = (event, value) => {
     this.setState({ value: value });
   };
