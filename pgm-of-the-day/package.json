@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "pgm-of-the-day",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
