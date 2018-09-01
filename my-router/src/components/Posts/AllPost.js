@@ -6,7 +6,7 @@ import { connect } from 'react-redux';
 import Post from './Post';
 
 class AllPost extends Component {
-  state = {  }
+  
   render() { 
     return ( 
       
@@ -20,7 +20,7 @@ class AllPost extends Component {
   }
 }
 
-//Step 18: add the function and export stmt with connect. it does exactly the same. it maps state to props
+//Step 18: add the function and export statement with connect. it does exactly the same. it maps state to props
 const mapStateToProps = (state) => {
   return {
       posts: state

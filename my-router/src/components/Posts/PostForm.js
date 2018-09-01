@@ -9,16 +9,17 @@ class PostForm extends Component {
     const title = this.getTitle.value;
     const message =  this.getMessage.value;
     const data = {
-      id: new Date(),
+      id: new Date().getTime(),
       title,
       message
     }
     console.log(data); //Check the Data
 
-    //Step 17: IT's time to dispatch events . and Step 18 is in AllPost.js
+    //Step 17: IT's time to dispatch events. and Step 18 is in AllPost.js
     this.props.dispatch({
-      type:'ADD_POST',
-      data}
+        type:'ADD_POST',
+        data
+      }
     );
     this.getTitle.value = '';
     this.getMessage.value = '';

@@ -1,8 +1,11 @@
 //What's a Reducer?
 // It is a function that takes the current state and an action that was dispatched as it’s parameters and returns the new state.
 
+
+
 //Step4: below code snippet 
 const postReducer = (state = [], action) => {
+  console.log(state, action);
   //Step8: 
   switch(action.type) {
     case 'ADD_POST':
@@ -10,7 +13,11 @@ const postReducer = (state = [], action) => {
       // promise, axios, 
       // redux-thunk (middleware)
       // redux-observable
+
       return state.concat([action.data]);
+    
+    case 'DELETE_POST':
+      return state.filter((post)=>post.id !== action.id);
     default:
       return state;
   }

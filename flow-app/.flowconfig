@@ -1,11 +1,19 @@
 [ignore]
+.*/node_modules/.*
+.*/src/registerServiceWorker\.js
+.*/src/index\.js
+.*\test\.js
 
 [include]
 
 [libs]
 
 [lints]
+all=warn
+sketchy-null-bool=off
 
 [options]
+include_warnings=true
+all=true
 
 [strict]
