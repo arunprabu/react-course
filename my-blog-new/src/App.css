@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.topGap{
+  margin-top: 60px;
+}
+
+.postBox{
+  border-bottom: 2px solid #eee;
+  background: #fafafa;
+  margin: 10px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 6px;
+}
+
+.btnSpacer{
+  margin-right: 20px;
+}
