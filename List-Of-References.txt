@@ -127,6 +127,13 @@ Day 4:
 Day 5:
 ======
 Completing Redux app 
+Flow    
+    https://stephenmann.io/post/how-to-setup-flow-with-create-react-app-and-visual-studio-code/
+    https://stephenmann.io/post/building-a-full-stack-react-and-express-site-using-flow/
+    https://medium.com/javascript-inside/back-to-the-basics-1bd3b12e38dc
+    https://medium.com/javascript-inside/back-to-the-basics-using-react-flow-pt-2-99292993829f
+    https://medium.com/flow-type/even-better-support-for-react-in-flow-25b0a3485627
+    https://www.robinwieruch.de/the-soundcloud-client-in-react-redux-flow/
 Jest
 
 Better Project Structure
